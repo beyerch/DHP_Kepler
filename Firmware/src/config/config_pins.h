@@ -1,0 +1,48 @@
+/*
+ * config_pins.h
+ *
+ * Created: 2/24/2017 11:10:21 PM
+ *  Author: adeck
+ */ 
+
+
+#ifndef CONFIG_PINS_H_
+#define CONFIG_PINS_H_
+
+
+#define POWER_LED_GREEN PIO_PD4_IDX
+#define POWER_LED_RED  PIO_PD5_IDX
+#define POWER_LED_BLUE PIO_PD3_IDX
+
+#define VEHICLE_LED_GREEN PIO_PA1_IDX
+#define VEHICLE_LED_RED   PIO_PD11_IDX
+#define VEHICLE_LED_BLUE PIO_PD10_IDX
+
+#define PC_LED_GREEN PIO_PD15_IDX 
+#define PC_LED_RED  PIO_PA0_IDX
+#define PC_LED_BLUE PIO_PD29_IDX
+
+#define J1850_P_TX  PIO_PA15_IDX
+#define J1850_VPW_RX PIO_PA16
+#define J1850_VPW_RX_IDX PIO_PA16_IDX
+
+#define HSC_NEN PIO_PD20_IDX
+#define HSC_NRM PIO_PA11_IDX
+
+#define MSC_NEN PIO_PD25_IDX
+#define MSC_NRM PIO_PD25_IDX
+
+#define SWC_RX_EN PIO_PA23_IDX
+#define SWC_MODE_1 PIO_PA13_IDX
+#define SWC_MODE_2 PIO_PA14_IDX
+
+/** CAN0 PIN RX. */
+#define PIN_CAN0_RX_IDX           PIO_PB3_IDX
+#define PIN_CAN0_RX_FLAGS         IOPORT_MODE_MUX_A
+
+/** CAN0 PIN TX. */
+#define PIN_CAN0_TX_IDX           PIO_PB2_IDX
+#define PIN_CAN0_TX_FLAGS         IOPORT_MODE_MUX_A
+
+
+#endif /* CONFIG_PINS_H_ */
