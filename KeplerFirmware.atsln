@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "KeplerFirmware", "KeplerFirmware\KeplerFirmware.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "bitfield-c", "..\libs\bitfield-c\bitfield-c.cproj", "{FF14EBC8-258E-4182-8500-32478443517F}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "VehicleCommunicationLib", "..\libs\VehicleCommunicationLib\VehicleCommunicationLib.cproj", "{B42A25FF-0CC0-4055-9539-7EE926935229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|ARM.Build.0 = Debug|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|ARM.ActiveCfg = Release|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|ARM.Build.0 = Release|ARM
+		{FF14EBC8-258E-4182-8500-32478443517F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FF14EBC8-258E-4182-8500-32478443517F}.Debug|ARM.Build.0 = Debug|ARM
+		{FF14EBC8-258E-4182-8500-32478443517F}.Release|ARM.ActiveCfg = Release|ARM
+		{FF14EBC8-258E-4182-8500-32478443517F}.Release|ARM.Build.0 = Release|ARM
+		{B42A25FF-0CC0-4055-9539-7EE926935229}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B42A25FF-0CC0-4055-9539-7EE926935229}.Debug|ARM.Build.0 = Debug|ARM
+		{B42A25FF-0CC0-4055-9539-7EE926935229}.Release|ARM.ActiveCfg = Release|ARM
+		{B42A25FF-0CC0-4055-9539-7EE926935229}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

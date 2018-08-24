@@ -1,5 +1,7 @@
 # DHP_Kepler
 
+**UPDATED 08/24/18 - Firmware (see KeplerFirmware subfolder) **
+
 The Digital Horsepower (DHP) Kepler Automotive Vehicle Interface Hardware supports:
   - Powered by Atmel ATSAM4E8C controller
   - 3 CAN Channels (speeds up to 2 MB)
